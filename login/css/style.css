@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;900&amp;display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary: #6a79fa;
+  --secondary: #5623d8;
+  --light: #999;
+  --dark: #111116;
+  --lighter: #707683;
+  --main-back: #fff;
+  --hover-color: #7ca40a;
+  --hover-sidebar-text: #f6f9ff;
+}
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+label {
+  font-size: 0.813rem !important;
+}
+p {
+  font-size: 0.75rem !important;
+  font-family: "Poppins", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.pop-700{
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important; 
+}
+.main {
+  min-height: 90vh;
+}
+.SignUpHead {
+  position: relative;
+  margin: 0;
+  top: -10px;
+  color: var(--light) !important;
+}
+.signUpColor {
+  color: var(--primary) !important;
+  text-decoration: none;
+}
+.regSin {
+  color: var(--primary) !important;
+}
+.form-control:read-only {
+  background-color: var(--main-back);
+}
+.form-label {
+  margin-bottom: 0.625rem;
+  font-size: 0.813rem !important;
+  color: var(--dark);
+}
+.required-mark {
+  color: red;
+}
+input {
+  border: 1px solid var(--light) !important;
+}
+.phoneinline {
+  display: flex;
+  width: 100%;
+}
+input:focus {
+  border: 1px solid var(--primary) !important;
+  outline: none !important;
+}
+
+*::-webkit-input-placeholder {
+  color: var(--light) !important;
+  font-size: 0.813rem !important;
+}
+*:-moz-placeholder {
+  /* FF 4-18 */
+  color: var(--light) !important;
+  opacity: 1;
+  font-size: 0.813rem !important;
+}
+*::-moz-placeholder {
+  /* FF 19+ */
+  color: var(--light) !important;
+  opacity: 1;
+  font-size: 0.813rem !important;
+}
+*:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--light) !important;
+  font-size: 0.813rem !important;
+}
+*::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--light) !important;
+  font-size: 0.813rem !important;
+}
+*::placeholder {
+  /* modern browser */
+  color: var(--light) !important;
+  font-size: 0.813rem !important;
+}
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  font-family: "Poppins", sans-serif !important;
+}
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+    color: var(--hover-color);
+    pointer-events: none;
+    background-color: var(--hover-colory);
+    border-color: var(--hover-color);
+    opacity: var(--hover-color);
+}
+.form-control {
+  font-family: "Poppins", sans-serif !important;
+  background-clip: padding-box;
+  font-size: 0.75rem !important;
+  border: 1px solid var(--light);
+}
+.form-control-lg {
+  padding: 0.75rem 1rem;
+}
+
+.forgotColor a {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 0.75rem !important;
+  text-decoration: none;
+  color: var(--primary);
+}
+.registerText h2 {
+  font-size: 40px;
+  color: var(--dark);
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+}
+.subText {
+  font-size: 18px;
+  color: var(--primary) !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  margin-bottom: 3px;
+}
+.registerText p {
+  font-size: 15px;
+  color: var(--lighter);
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 5px;
+}
+.btn:hover {
+  background-color: #fff;
+  border-color: #6a79fa;
+  color: #6a79fa;
+}
+.eye-icon {
+  float: right;
+  margin-right: 10px;
+  margin-top: -33px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  color: #6a79fa;
+}
+.roundedd-border {
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.dash-btn {
+  padding: 10px 5px !important;
+  font-size: 10px;
+}
+.package_btn:focus {
+  outline: none; /* Remove default focus outline */
+  transform: scale(1.05);
+  border-left-color: var(--hover-color);
+  border-right-color: var(--primary);
+}
+.form-check-input:checked {
+  background-color: var(--primary);
+}
+.form-check label {
+  font-size: 15px !important;
+}
+.nrm-btn {
+  font-size: 12px;
+}
+.font-15 {
+  font-size: 12px;
+}
+.dropzone {
+  height: 205px;
+  position: relative;
+  padding: 30px 15px;
+}
+.boxx-shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px !important;
+}
